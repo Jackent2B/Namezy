@@ -3,11 +3,11 @@ import './Title.css';
 function Title() {
   return (
     <div>
-      <h1>NAMEZY!</h1>
       <img
-        src='https://user-images.githubusercontent.com/26179770/106359099-693e3380-6336-11eb-8069-9e36f25de5ca.png'
+        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrIdhQTsexcMRF3RiOvpY5ul82V7Q0NZXQw&usqp=CAU'
         alt='vector'
       />
+      <h1>NAMEZY!</h1>
     </div>
   );
 }

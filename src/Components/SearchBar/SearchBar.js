@@ -7,10 +7,12 @@ function SearchBar() {
   const name = require('@rstacruz/startup-name-generator');
   useEffect(() => {
     //console.log(name(search).slice(0, 12));
-    if (name(search).length >= 12) {
+    if (search === '') setWords([]);
+    else if (name(search).length >= 12) {
       setWords(name(search).slice(0, 12));
     } else setWords(name(search));
   }, [search]);
+
   return (
     <div id='searchBox'>
       <div>
