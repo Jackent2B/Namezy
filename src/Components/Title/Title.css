@@ -1,0 +1,13 @@
+h1 {
+  color: rgb(74, 219, 212);
+  letter-spacing: 25px;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  font-size: 5em;
+}
+img {
+  display: block;
+  margin: 50px auto;
+  width: 25%;
+  height: 25%;
+}
